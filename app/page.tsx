@@ -36,8 +36,8 @@ export default function AtlasCendekiaPage() {
   const [showWorldEvent, setShowWorldEvent] = useState(false)
   const [showDashboard, setShowDashboard] = useState(false)
   const [editingName, setEditingName] = useState(false)
-  const [profileName, setProfileName] = useState("Arini")
-  const [tempName, setTempName] = useState("Arini")
+  const [profileName, setProfileName] = useState("Joevan")
+  const [tempName, setTempName] = useState("Joevan")
   const [currentView, setCurrentView] = useState("map") // map, library, laboratory, observatory, classroom
 
   const handleDailyMissionsClick = () => {
